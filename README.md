@@ -90,16 +90,3 @@ pm2 startup
 * `extractor.py` — Cleaning and formatting raw data
 * `.gitignore` — Prevents `venv/`, `.env`, and `__pycache__` from leaking
 
----
-
-## Final Check
-
-1. Save the file
-2. Look at the "Changes" sidebar in VS Code
-3. If it shows only a few files (and not 1600+), run:
-
-```bash
-git add .
-git commit -m "Fixed README formatting"
-git push origin main
-```
